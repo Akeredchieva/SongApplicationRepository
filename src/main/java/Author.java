@@ -94,7 +94,11 @@ public class Author {
      * @param song parameter with type class Song from the input
      */
     private void setSong(Song song) {
-        this.song = song;
+        if (song != null) {
+            this.song = song;
+        } else {
+            throw new IllegalArgumentException("No valid data");
+        }
     }
 
 

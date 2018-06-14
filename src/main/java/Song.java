@@ -62,7 +62,7 @@ public class Song {
     private void setTitle(String title) {
         if (title != null) {
             this.title = title;
-        }else {
+        } else {
             throw new IllegalArgumentException("No value is given");
         }
     }
@@ -74,7 +74,7 @@ public class Song {
     private void setGenre(String genre) {
         if (genre != null) {
             this.genre = genre;
-        }else {
+        } else {
             throw new IllegalArgumentException("No value is given");
         }
     }
@@ -86,7 +86,7 @@ public class Song {
     private void setTiming(int timing) {
         if (timing != 0) {
             this.timing = timing;
-        }else {
+        } else {
             throw new IllegalArgumentException("There is no song with timing 0");
         }
     }
@@ -98,7 +98,7 @@ public class Song {
     private void setLyrics(String lyrics) {
         if (lyrics != null) {
             this.lyrics = lyrics;
-        }else{
+        } else {
             throw new IllegalArgumentException("No value is given");
         }
 
